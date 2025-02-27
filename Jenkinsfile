@@ -25,7 +25,5 @@ pipeline {
                        exclusionPattern: '**/test/**'
                        }
                 }
-
-
     }
-}
+}}
