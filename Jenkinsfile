@@ -18,7 +18,7 @@ pipeline {
             }
             post {
                 always {
-                junit 'target/surefire/*.xml'
+                junit 'target/surefire-reports/*.xml'
                 jacoco execPattern: '**/target/jacoco.exec',
                        classPattern: '**/target/classes',
                        sourcePattern: '**/src/main/java',
