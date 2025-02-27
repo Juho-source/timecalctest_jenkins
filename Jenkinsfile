@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checking') {
             steps {
-                git branch: 'main' URL: 'https://github.com/Juho-source/timecalctest_jenkins.git'
+                git branch: 'main' url: 'https://github.com/Juho-source/timecalctest_jenkins.git'
             }
         }
         stage('Build') {
